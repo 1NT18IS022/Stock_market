@@ -1,0 +1,86 @@
+2023-05-09 11:11:31,454 ERROR E_stock_market.Controllers.MarketController.add_stock [182] - MESSAGE: Company details not found
+2023-05-09 11:12:00,310 ERROR Microsoft.EntityFrameworkCore.Database.Command.? [?] - MESSAGE: Failed executing DbCommand (22ms) [Parameters=[@p0='?' (DbType = Int32), @p1='?' (DbType = DateTime2), @p2='?' (DbType = Single)], CommandType='Text', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [Stocks] ([Company_code], [Date_time], [Stock_price])
+OUTPUT INSERTED.[ref_id]
+VALUES (@p0, @p1, @p2);
+2023-05-09 11:35:31,317 ERROR Microsoft.EntityFrameworkCore.Database.Command.? [?] - MESSAGE: Failed executing DbCommand (16ms) [Parameters=[@p0='?' (DbType = Int32), @p1='?' (DbType = DateTime2), @p2='?' (DbType = Single)], CommandType='Text', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [Stocks] ([Company_code], [Date_time], [Stock_price])
+OUTPUT INSERTED.[ref_id]
+VALUES (@p0, @p1, @p2);
+2023-05-09 11:35:51,562 ERROR Microsoft.EntityFrameworkCore.Database.Command.? [?] - MESSAGE: Failed executing DbCommand (3ms) [Parameters=[@p0='?' (DbType = Int32), @p1='?' (DbType = DateTime2), @p2='?' (DbType = Single)], CommandType='Text', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [Stocks] ([Company_code], [Date_time], [Stock_price])
+OUTPUT INSERTED.[ref_id]
+VALUES (@p0, @p1, @p2);
+2023-05-09 11:37:06,037 ERROR Microsoft.EntityFrameworkCore.Database.Command.? [?] - MESSAGE: Failed executing DbCommand (3ms) [Parameters=[@p0='?' (DbType = Int32), @p1='?' (DbType = DateTime2), @p2='?' (DbType = Single)], CommandType='Text', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [Stocks] ([Company_code], [Date_time], [Stock_price])
+OUTPUT INSERTED.[ref_id]
+VALUES (@p0, @p1, @p2);
+2023-05-09 11:37:50,644 ERROR Microsoft.EntityFrameworkCore.Database.Command.? [?] - MESSAGE: Failed executing DbCommand (4ms) [Parameters=[@p0='?' (DbType = Int32), @p1='?' (DbType = DateTime2), @p2='?' (DbType = Single)], CommandType='Text', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [Stocks] ([Company_code], [Date_time], [Stock_price])
+OUTPUT INSERTED.[ref_id]
+VALUES (@p0, @p1, @p2);
+2023-05-09 11:42:39,354 ERROR Microsoft.EntityFrameworkCore.Database.Command.? [?] - MESSAGE: Failed executing DbCommand (4ms) [Parameters=[@p0='?' (DbType = Int32), @p1='?' (DbType = DateTime2), @p2='?' (DbType = Single)], CommandType='Text', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [Stocks] ([Company_code], [Date_time], [Stock_price])
+OUTPUT INSERTED.[ref_id]
+VALUES (@p0, @p1, @p2);
+2023-05-09 11:42:55,968 ERROR Microsoft.EntityFrameworkCore.Database.Command.? [?] - MESSAGE: Failed executing DbCommand (3ms) [Parameters=[@p0='?' (DbType = Int32), @p1='?' (DbType = DateTime2), @p2='?' (DbType = Single)], CommandType='Text', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [Stocks] ([Company_code], [Date_time], [Stock_price])
+OUTPUT INSERTED.[ref_id]
+VALUES (@p0, @p1, @p2);
+2023-05-09 11:43:20,593 ERROR Microsoft.EntityFrameworkCore.Database.Command.? [?] - MESSAGE: Failed executing DbCommand (4ms) [Parameters=[@p0='?' (DbType = Int32), @p1='?' (DbType = DateTime2), @p2='?' (DbType = Single)], CommandType='Text', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [Stocks] ([Company_code], [Date_time], [Stock_price])
+OUTPUT INSERTED.[ref_id]
+VALUES (@p0, @p1, @p2);
+2023-05-09 11:43:45,655 ERROR Microsoft.EntityFrameworkCore.Database.Command.? [?] - MESSAGE: Failed executing DbCommand (3ms) [Parameters=[@p0='?' (DbType = Int32), @p1='?' (DbType = DateTime2), @p2='?' (DbType = Single)], CommandType='Text', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [Stocks] ([Company_code], [Date_time], [Stock_price])
+OUTPUT INSERTED.[ref_id]
+VALUES (@p0, @p1, @p2);
+2023-05-09 11:43:55,645 ERROR Microsoft.EntityFrameworkCore.Database.Command.? [?] - MESSAGE: Failed executing DbCommand (3ms) [Parameters=[@p0='?' (DbType = Int32), @p1='?' (DbType = DateTime2), @p2='?' (DbType = Single)], CommandType='Text', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [Stocks] ([Company_code], [Date_time], [Stock_price])
+OUTPUT INSERTED.[ref_id]
+VALUES (@p0, @p1, @p2);
+2023-05-09 11:44:08,578 ERROR Microsoft.EntityFrameworkCore.Database.Command.? [?] - MESSAGE: Failed executing DbCommand (3ms) [Parameters=[@p0='?' (DbType = Int32), @p1='?' (DbType = DateTime2), @p2='?' (DbType = Single)], CommandType='Text', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [Stocks] ([Company_code], [Date_time], [Stock_price])
+OUTPUT INSERTED.[ref_id]
+VALUES (@p0, @p1, @p2);
+2023-05-09 11:52:23,199 ERROR Microsoft.EntityFrameworkCore.Database.Command.? [?] - MESSAGE: Failed executing DbCommand (6ms) [Parameters=[@p0='?' (DbType = Int32), @p1='?' (DbType = DateTime2), @p2='?' (DbType = Single)], CommandType='Text', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [Stocks] ([Company_code], [Date_time], [Stock_price])
+OUTPUT INSERTED.[ref_id]
+VALUES (@p0, @p1, @p2);
+2023-05-09 11:53:03,703 ERROR Microsoft.EntityFrameworkCore.Database.Command.? [?] - MESSAGE: Failed executing DbCommand (3ms) [Parameters=[@p0='?' (DbType = Int32), @p1='?' (DbType = DateTime2), @p2='?' (DbType = Single)], CommandType='Text', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [Stocks] ([Company_code], [Date_time], [Stock_price])
+OUTPUT INSERTED.[ref_id]
+VALUES (@p0, @p1, @p2);
+2023-05-09 11:53:22,808 ERROR E_stock_market.Controllers.MarketController.company_fetch [107] - MESSAGE: No company detail on given company code
+2023-05-09 11:55:29,464 ERROR E_stock_market.Controllers.MarketController.MoveNext [208] - MESSAGE: company details not found 
+2023-05-09 11:55:29,464 ERROR E_stock_market.Controllers.MarketController.company_fetch [107] - MESSAGE: No company detail on given company code
+2023-05-09 11:55:34,994 ERROR E_stock_market.Controllers.MarketController.company_fetch [107] - MESSAGE: No company detail on given company code
+2023-05-09 11:55:35,003 ERROR E_stock_market.Controllers.MarketController.MoveNext [208] - MESSAGE: company details not found 
+2023-05-09 12:22:03,732 ERROR E_stock_market.Controllers.MarketController.MoveNext [208] - MESSAGE: company details not found 
+2023-05-09 12:22:03,732 ERROR E_stock_market.Controllers.MarketController.company_fetch [107] - MESSAGE: No company detail on given company code

@@ -1,0 +1,25 @@
+2023-05-11 10:04:31,952 ERROR E_stock_market.Controllers.LoginController.Register [37] - MESSAGE: Username already taken
+2023-05-11 10:06:00,447 ERROR Microsoft.EntityFrameworkCore.Database.Command.? [?] - MESSAGE: Failed executing DbCommand (7ms) [Parameters=[@p0='?' (DbType = Int32), @p1='?' (DbType = DateTime2), @p2='?' (DbType = Single)], CommandType='Text', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [Stocks] ([Company_code], [Date_time], [Stock_price])
+OUTPUT INSERTED.[ref_id]
+VALUES (@p0, @p1, @p2);
+2023-05-11 10:06:09,167 ERROR Microsoft.EntityFrameworkCore.Database.Command.? [?] - MESSAGE: Failed executing DbCommand (5ms) [Parameters=[@p0='?' (DbType = Int32), @p1='?' (DbType = DateTime2), @p2='?' (DbType = Single)], CommandType='Text', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [Stocks] ([Company_code], [Date_time], [Stock_price])
+OUTPUT INSERTED.[ref_id]
+VALUES (@p0, @p1, @p2);
+2023-05-11 13:02:39,214 ERROR Microsoft.EntityFrameworkCore.Database.Command.? [?] - MESSAGE: Failed executing DbCommand (11ms) [Parameters=[@p0='?' (DbType = Int32), @p1='?' (DbType = DateTime2), @p2='?' (DbType = Single)], CommandType='Text', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [Stocks] ([Company_code], [Date_time], [Stock_price])
+OUTPUT INSERTED.[ref_id]
+VALUES (@p0, @p1, @p2);
+2023-05-11 13:03:47,508 ERROR Microsoft.EntityFrameworkCore.Database.Command.? [?] - MESSAGE: Failed executing DbCommand (4ms) [Parameters=[@p0='?' (DbType = Int32), @p1='?' (DbType = DateTime2), @p2='?' (DbType = Single)], CommandType='Text', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [Stocks] ([Company_code], [Date_time], [Stock_price])
+OUTPUT INSERTED.[ref_id]
+VALUES (@p0, @p1, @p2);
